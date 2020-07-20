@@ -5,7 +5,7 @@ const request = require("request");
 const port = process.argv.slice(2)[0];
 const app = express();
 app.use(bodyParser.json());
-const heroesService = "http://localhost:8081";
+const heroesService = "http://localhost:3000";
 const threats = [
   {
     id: 1,
